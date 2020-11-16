@@ -105,5 +105,5 @@ print("\nSUPPORTSUM Percentages:\n", p_supportsum)
 # counts and percentages of GRADEAVE
 c_gradeave = ref_data.GRADEAVE.value_counts(sort=False, dropna=False)
 p_gradeave = ref_data.GRADEAVE.value_counts(sort=False, normalize = True, dropna=False)
-print("\GRADEAVE Count:\n", c_gradeave)
-print("\GRADEAVE Percentages:\n", p_gradeave)
+print("\nGRADEAVE Count:\n", c_gradeave)
+print("\nGRADEAVE Percentages:\n", p_gradeave)
